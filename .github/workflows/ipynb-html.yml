@@ -25,7 +25,7 @@ jobs:
       - name: Convert ipynb to HTML
         run: |
           mkdir -p ipynb-html
-          for notebook in Codebase/**/*.ipynb; do
+          for notebook in Codebase/*.ipynb; do
             jupyter nbconvert "$notebook" --to html --output-dir ipynb-html;
           done
 
