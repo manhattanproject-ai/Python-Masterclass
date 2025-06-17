@@ -37,16 +37,16 @@ jobs:
       #     git config --global user.name "manhattanproject-ai"
       #     git config --global user.email "themanhattanproject25@gmail.com"
 
-      # - name: Push back to repository
-      #   uses: EndBug/add-and-commit@v9
-      #   with:
-      #     add: ipynb-html
-      #     message: "Add converted ipynb files to ipynb-html directory"
-      #     push: true
-      
       - name: Push back to repository
-        uses: ad-m/github-push-action@v0.1.0
+        uses: EndBug/add-and-commit@v9
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          add: ipynb-html
+          message: "Add converted ipynb files to ipynb-html directory"
+          push: true
+      
+      # - name: Push back to repository
+      #   uses: ad-m/github-push-action@v0.1.0
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: main
 
