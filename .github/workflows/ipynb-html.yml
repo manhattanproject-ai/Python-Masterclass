@@ -1,0 +1,38 @@
+name: Convert ipynb to HTML
+
+on:
+  push:
+    branches:
+      - main  # or whatever your main branch is
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install jupyter
+        run: |
+          python -m pip install jupyter nbconvert
+
+      - name: Convert ipynb to HTML
+        run: |
+          mkdir -p ipynb-html
+          for notebook in Codebase/**/*.ipynb; do
+            jupyter nbconvert "$notebook" --to html --output-dir ipynb-html;
+          done
+
+      - name: Push back to repository
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: ipynb-html
+          message: "Add converted ipynb files to ipynb-html directory"
+          push: true
+
