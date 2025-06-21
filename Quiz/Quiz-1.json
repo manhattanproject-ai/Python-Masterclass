@@ -1,0 +1,38 @@
+[
+  {
+    "q_id": "S1Q1",
+    "q": "What is the purpose of data profiling in EDA?",
+    "q_img_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Data_Profiling_Overview.png",
+    "hint": "It's about summarizing data structure and patterns",
+    "opt1": "Finding model accuracy",
+    "opt2": "Summarizing column statistics",
+    "opt3": "Performing clustering",
+    "opt4": "Scaling features",
+    "opt5": "",
+    "opt6": "",
+    "is_ri_opt-01": false,
+    "is_ri_opt-02": true,
+    "is_ri_opt-03": false,
+    "is_ri_opt-04": false,
+    "is_ri_opt-05": false,
+    "is_ri_opt-06": false
+  },
+  {
+    "q_id": "S1Q2",
+    "q": "Which of the following are used to understand categorical variables?",
+    "q_img_url": "",
+    "hint": "Think of frequency and count",
+    "opt1": "Value Counts",
+    "opt2": "Bar Plot",
+    "opt3": "Box Plot",
+    "opt4": "Pair Plot",
+    "opt5": "",
+    "opt6": "",
+    "is_ri_opt-01": true,
+    "is_ri_opt-02": true,
+    "is_ri_opt-03": false,
+    "is_ri_opt-04": false,
+    "is_ri_opt-05": false,
+    "is_ri_opt-06": false
+  }
+]
