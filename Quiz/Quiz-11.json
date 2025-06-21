@@ -1,0 +1,38 @@
+[
+  {
+    "q_id": "S11Q1",
+    "q": "Which are typical outputs of `df.describe()` for categorical columns?",
+    "q_img_url": "",
+    "hint": "Think about most common value and variety",
+    "opt1": "Count",
+    "opt2": "Unique",
+    "opt3": "Top",
+    "opt4": "Freq",
+    "opt5": "",
+    "opt6": "",
+    "is_ri_opt-01": true,
+    "is_ri_opt-02": true,
+    "is_ri_opt-03": true,
+    "is_ri_opt-04": true,
+    "is_ri_opt-05": false,
+    "is_ri_opt-06": false
+  },
+  {
+    "q_id": "S11Q2",
+    "q": "Which issues can be detected using `.duplicated()`?",
+    "q_img_url": "",
+    "hint": "Think row-level",
+    "opt1": "Redundant records",
+    "opt2": "Outliers",
+    "opt3": "Nulls",
+    "opt4": "Incorrect data types",
+    "opt5": "",
+    "opt6": "",
+    "is_ri_opt-01": true,
+    "is_ri_opt-02": false,
+    "is_ri_opt-03": false,
+    "is_ri_opt-04": false,
+    "is_ri_opt-05": false,
+    "is_ri_opt-06": false
+  }
+]
