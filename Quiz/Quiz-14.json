@@ -1,0 +1,20 @@
+[
+  {
+    "q_id": "S14Q1",
+    "q": "Which tool is commonly used for automated EDA report generation?",
+    "q_img_url": "",
+    "hint": "Think plug-and-play Python packages",
+    "opt1": "pandas_profiling",
+    "opt2": "matplotlib",
+    "opt3": "NumPy",
+    "opt4": "seaborn",
+    "opt5": "",
+    "opt6": "",
+    "is_ri_opt-01": true,
+    "is_ri_opt-02": false,
+    "is_ri_opt-03": false,
+    "is_ri_opt-04": false,
+    "is_ri_opt-05": false,
+    "is_ri_opt-06": false
+  }
+]
